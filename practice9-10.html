@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기 만들기</title>
+<style>
+    input{
+        width: 72px;
+    }
+</style>
+<script>
+    function erase(){
+        let text = document.getElementById("line");
+        line.value = " ";
+        if(line.value == " "){
+            line.value = "0";
+        }
+    }
+    function push(o){
+        let text = document.getElementById("line");
+        if(text.value == 0){
+            text.value = o.value;
+        }
+        else
+            text.value += o.value;
+        check(o);
+    }
+    function result(){
+        let result = document.getElementById("line");
+        result.value = eval(result.value);
+    }
+    function back(){
+        let allinfom = document.getElementById("line");
+        allinfom.value = allinfom.value.slice(0, -1);
+        if(allinfom.value==""){
+            allinfom.value = "0";
+        }
+    }
+</script>
+</head>
+<body>
+    <h3>계산기 만들기</h3>
+    <hr>
+    <input type="text" id="line" value="0" style="width: 300px;"><br>
+    <input type="button" id="back" value="BACK" onclick="back()">
+    <input type="button" id="erase1" value="CE" onclick="erase()">
+    <input type="button" id="erase2" value="C" onclick="erase()">
+    <input type="button" id="finsh" value="=" onclick="result()">
+    <br>
+    <input type="button" value="7" onclick="push(this)">
+    <input type="button" value="8" onclick="push(this)">
+    <input type="button" value="9" onclick="push(this)">
+    <input type="button" value="/" onclick="push(this)">
+    <br>
+    <input type="button" value="4" onclick="push(this)">
+    <input type="button" value="5" onclick="push(this)">
+    <input type="button" value="6" onclick="push(this)">
+    <input type="button" value="*" onclick="push(this)">
+    <br>
+    <input type="button" value="1" onclick="push(this)">
+    <input type="button" value="2" onclick="push(this)">
+    <input type="button" value="3" onclick="push(this)">
+    <input type="button" value="-" onclick="push(this)">
+    <br>
+    <input type="button" value="0" onclick="push(this)">
+    <input type="button" value="+" onclick="push(this)">
+    <input type="button" value="NONE">
+    <input type="button" value="NONE">
+    
+</body>
+</html>
