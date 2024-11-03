@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일기 쓰기</title>
+</head>
+<body>
+    <h3>일기쓰기</h3>
+    <hr>
+    <script>
+        let now = new Date();
+        let show1 = now.toLocaleDateString();
+        document.write("오늘 " + show1);
+    </script>
+    <br>
+    <textarea name="" id="item"></textarea><br>
+    <button id="save" onclick="saving()">저장</button>
+    <button id="look" onclick="show()">보기</button>
+    <script>
+        let item = document.getElementById("item");
+        function saving(){
+            if(!window.localStorage){
+                return;
+            }
+            localStorage.setItem(item.value, show1);
+        }
+        function show(){
+            window.open("week9-2view.html");
+        }
+    </script>
+</body>
+</html>

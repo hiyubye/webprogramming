@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일기 보기</title>
+    <style>
+        ol{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h3>일기 보기</h3>
+    <hr>
+    <ol id="output">
+    </ol>
+    <script>
+        function printstorage() {
+            outputDiv = document.getElementById('output');
+
+            keys = Object.keys(localStorage);
+            if (keys.length === 0) {
+                outputDiv.innerHTML = '로컬 스토리지에 저장된 데이터가 없습니다.';
+                return;
+            }
+
+            keys.forEach(key => {
+                item = localStorage.getItem(key); // 문자열 그대로 가져오기
+                li = document.createElement("li");
+                keyitem = document.createElement("span");
+                keyitem.textContent = item;
+                keyitem.style.marginRight ="10px";
+                keyvalue = document.createElement("span");
+                keyvalue.textContent = key;
+                hr = document.createElement("hr");
+                
+                li.appendChild(keyitem);
+                li.appendChild(keyvalue);
+                outputDiv.appendChild(li);
+                outputDiv.appendChild(hr);
+            });
+    }
+        window.onload = printstorage;
+    </script>
+</body>
+</html>
