@@ -4,7 +4,7 @@
   -week1.html:html 기본 문서 작성
 
 2. 2주차 연습
-   -week2.html: 표, 하이퍼링크, 시맨틱 태그 작성
+  -week2.html: 표, 하이퍼링크, 시맨틱 태그 작성
 3. 3주차 연습
    -week3.html: CSS Style 적용 작성
 4. 4주차연습
