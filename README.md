@@ -13,19 +13,19 @@
    - week4-obj-gen.html: 객체 생성하는 3가지 타입 작성
 
 5. 5주차 연습
-   - prac8-4.html:
-   - prac8-6.html: 실습문제 8-6(innerhtml 작성)
-   - prac8-9.html: 실습문제 8-9
-   - prac8-10.html:
+   - prac8-4.html: 실습문제 8-4(innerhtml로 답 표시하기)
+   - prac8-6.html: 실습문제 8-6(innerhtml로 프롬프트에 작선된거 출력)
+   - prac8-9.html: 실습문제 8-9(프롬프트에 입력된 내용 리스트 밑에 추가로 나오게 하기)
+   - prac8-10.html: 실습문제 8-10(답보기 버튼 누르면 밑에 정답 보이게 하기)
 6. 6주차 연습
-   - practice9-6.html
-   - practice9-10.html
+   - practice9-6.html: 실습문제9-6 (이벤트 리스너 작성으로 이미지 휠로 변화)
+   - practice9-10.html 실습문제9-10 (계산기 만들고 버튼에 따라 값 변화
 
 7. 9주차 연습
-   - week9-1search.html
-   - week9-1store.html
-   - week9-2save.html
-   - week9-2view.html
+   - week9-1search.html: 실습문제12-2 (웹페이지중 검색하는 거로 세션 스토리지에서 검색)
+   - week9-1store.html: 실습문제12-2(웹페이지중 세션 스토리지에 저장)
+   - week9-2save.html: 실습문제12-4(textarea에 입력을 받아 입력 받은 값을 로컬 스토리지에 저장)
+   - week9-2view.html: 실습문제12-4(로컬 스토리지에 저장한 값을 웹페이지에 출력)
 8.  10주차 연습
       -
 9.  11주차 연습
