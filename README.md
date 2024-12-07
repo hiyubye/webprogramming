@@ -26,19 +26,22 @@
    - week9-1store.html: 실습문제12-2(웹페이지중 세션 스토리지에 저장)
    - week9-2save.html: 실습문제12-4(textarea에 입력을 받아 입력 받은 값을 로컬 스토리지에 저장)
    - week9-2view.html: 실습문제12-4(로컬 스토리지에 저장한 값을 웹페이지에 출력)
-8.  10주차 연습
+8. 10주차 연습
+   - prac13-6.html: 실습문제13-6 (워커 태스크를 생성하여 버튼 누르면 곱셈한 값을 반환)
+   - ex13-10.html: 워커태스크를 통해 타이머 만들기(setInterval을 통해 함수 호출로 값 호출)
+9.  10주차 연습
       - ex11-1.html: 3개의 캔버스를 생성
       - ex11-3.html: 캔버스에 삼각형을 그리기
-9.  11주차 연습
+10.  11주차 연습
       - Varex1.js: var와 let이 지역변수로 선언되면 어떻게 값이 변화는지 확인
-10.  12주차 연습
+11.  12주차 연습
       - funcPr-practice.js: 함수형 프로그래밍 연습(쇼핑카트의 총금액 계산하기, 이름 목록 변환하기 with foreach,reduce,map함수사용)
       - callbackex1.js: callback 함수를 사용한 예시 (함수호출의 인자에 callback 함수 등록)
       - first-classEx1.js: 일급함수를 사용한 예시. (함수를 호출하고 함수를 값으로 사용)
-11.  13주차 연습
+12.  13주차 연습
       - webserver1.js: http를 요청받고 서버 생성 및 간단한 글 작성
       - webserver2.js: 서버를 생성하는데 생성한 서버에 파일로 열기
-12.  14주차 연습
+13.  14주차 연습
        - app1.js: express을 통해 서버 실행
        - app2.js: app1에서 writheHead,end 사용 추가
        - app5.js: express에서 객체 생성
