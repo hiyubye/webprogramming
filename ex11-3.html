@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex11-3</title>
+</head>
+<body>
+    <h3>선으로 삼각형 그리기</h3>
+    <hr>
+    <canvas id="canvas" style="background-color: aliceblue;" width="300" height="200"></canvas>
+    <script>
+        let canvas = document.getElementById("canvas");
+        let context = canvas.getContext("2d");
+
+        context.beginPath();
+        context.moveTo(120, 20);
+        context.lineTo(20, 50);
+        context.lineTo(150, 120);
+        context.strokeStyle ="red";
+
+        context.closePath(); //이게 stroke보다 먼저 써야됌.
+        context.stroke();
+    </script>
+</body>
+</html>
