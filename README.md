@@ -37,4 +37,12 @@
 11.  13주차 연습
       -
 12.  14주차 연습
-       -
+       - app1.js: express을 통해 서버 실행
+       - app2.js: app1에서 writheHead,end 사용 추가
+       - app5.js: express에서 객체 생성
+       - app6.js: express에서 redirect로 강제 사이트 이동시키기
+       - app7.js: query를 통해 값 출력하기
+       - app8-1.js: app8에서 body-parser, serve-static 대신 express를 통한 path지정
+       - app8.js: body-parser, serve-static을 통한 path 지정을 통해 값 출력하기
+       - app9.js: app8에서 라우터 사용 추가. 라우터로 post 방식으로 값 출력
+       - login.html1,2: 값 출력을 위한 파일. 1은 action지정x, 2는 action 지정함.
